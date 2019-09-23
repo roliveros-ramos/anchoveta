@@ -1,0 +1,21 @@
+Package: anchoveta
+Type: Package
+Authors@R: c(
+    person("Ricardo", "Oliveros-Ramos", email="ricardo.oliveros@gmail.com", role=c("aut", "cre")))
+Title: Some population dynamics models for anchoveta
+Version: 0.1.0001
+Date: 2018-06-17
+Description: Population dynamics for anchoveta (Peruvian anchovy, Engraulis ringens).
+License: GPL (>= 2)
+Depends: 
+  R (>= 2.15)
+Imports: 
+  calibrar,
+  Rcpp (>= 0.12.17),
+  stats,
+  utils
+LinkingTo: Rcpp
+URL: http://roliveros-ramos.github.io/anchoveta
+BugReports: https://github.com/roliveros-ramos/anchoveta/issues
+ByteCompile: TRUE
+RoxygenNote: 6.0.1
